@@ -67,6 +67,7 @@ x[4] #NULL
 (x= rnorm(100))
 plot(density(x))
 ?rnorm
+?distribution()
 
 (x1= rnorm(1000, mean=50, sd=5))
 plot(density(x1))
@@ -156,6 +157,10 @@ head(df1) #top 6 by default
 ?head
 head(df1,n=3)
 tail(df1)
+summary(df1)
+
+df1$gender = factor (df1$gender) #convert a vector into factor
+summary(df1) #shows number of M and F now
 
 # Factors----
 
