@@ -37,7 +37,7 @@ tweets
 tweets[1:10]
 #Another Topics
 #search.string <- "#indvseng"
-search.string <- "#asiacup"
+search.string <- "#GandhiJayanti"
 
 no.of.tweets <- 100
 
